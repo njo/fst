@@ -12,7 +12,6 @@ fn main() -> Result<(), Error> {
         ("dupes", Some(m)) => cmd::dupes::run(m),
         ("fuzzy", Some(m)) => cmd::fuzzy::run(m),
         ("grep", Some(m)) => cmd::grep::run(m),
-        ("map", Some(m)) => cmd::map::run(m),
         ("node", Some(m)) => cmd::node::run(m),
         ("range", Some(m)) => cmd::range::run(m),
         ("rust", Some(m)) => cmd::rust::run(m),
